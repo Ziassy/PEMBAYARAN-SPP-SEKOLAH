@@ -1,0 +1,43 @@
+.card-dasboard {
+    width: 83%;
+    height: 450px;
+    margin: 40px 0 auto 220px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+  }
+  .card-dalam {
+    width: 250px;
+    margin: 30px;
+    background: rgb(56, 86, 255);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    float: left;
+  
+  }
+  .judul {
+      padding: 10px;
+  }
+
+  p.introduce {
+    width: 60%;
+    height: 200px;
+    margin: 40px 20px auto 0;
+    float: left;
+  }
+
+  button.petunjuk {
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+    
+  
+
+

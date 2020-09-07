@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body{
+     background-color: #E8E8E8;
+  }
+  
+  .wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width: 200px;
+    height: 100%;
+    background: #E92424;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .sidebar p{
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    size: 20px;
+  }
+  
+  
+  .wrapper.sidebar .profile .img{
+    padding: 0 18px;
+    align-items: center;
+  }
+  
+  .wrapper.sidebar.profile.img img{
+     width: 45px;
+     height: 45px;
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: rgb(233, 219, 219);
+    display: block;
+  }
+  
+    
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+   
+  
+  .wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+  }
+  
+  .wrapper .main_content .header{
+    padding: 20px;
+    background: #ffff;
+    color: black;
+    border-bottom: 1px solid #e0e4e8;
+  }
+  
+  .wrapper .main_content .info{
+    margin-left: 200px;
+    color: #717171;
+    line-height: 25px;
+  }
+  
+  .wrapper .main_content .info div{
+    margin-bottom: 20px;
+  }
+  
+  @media (max-height: 500px){
+    .social_media{
+      display: none !important;
+    }
+  }
+  
+  .wrapper .main_content .info .card{
+    background: #fff;
+    border: 1px solid #E0F2F1;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .wrapper .main_content .info .card2{
+    background: #fff;
+    border: 1px solid #E0F2F1;
+    margin-bottom: 30px;
+    padding: 20px;
+  }

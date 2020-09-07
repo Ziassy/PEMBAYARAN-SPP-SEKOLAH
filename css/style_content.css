@@ -1,0 +1,65 @@
+body {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+}
+h2,h3{clear:both; text-align:center; font-size:16px;}
+.box {
+	width:95%;
+	height:auto;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 20px #aaa;
+	-webkit-box-shadow:0px 0px 20px #aaa;
+	box-shadow:0px 0px 20spx #aaa;
+	background-color:#FFF;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.style	{ 
+	border: 3px solid #FFFFFF;
+}
+.header	{
+	font-size: 16px;
+	font-weight: bold;
+	height:300px;
+
+	background-repeat: no-repeat;
+  	background-position: right top;
+  	background-attachment: fixed;
+}
+.bghead{
+	height: 500px;
+}
+.menu	{
+	height: 33px;
+	font-size:12px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-box-shadow:0px 0px 20px #aaa;
+	-webkit-box-shadow:0px 0px 20px #aaa;
+	box-shadow:0px 0px 20px #aaa;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.content {
+	margin-top:10px;
+	padding:5px;
+	height:auto;
+	margin-bottom: 0px;
+	width: 82%;
+	float: left;
+}
+.box .border .style #clearer {
+	clear: both;
+}
+.box .border .style #isi #left {
+	padding-top: 20px;
+	float: left;
+	width: 14%;
+	padding-left: 15px;
+}
+

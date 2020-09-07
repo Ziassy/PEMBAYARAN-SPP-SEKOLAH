@@ -1,0 +1,118 @@
+h1 {
+  padding: 10px auto 10px 10px;
+}
+.table_wrap {
+  width: 83%;
+  margin-left: 220px;
+  margin-top:5px;
+  margin-right:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.table_wrap ul li .item {
+  display: flex;
+  background: #fff;
+  padding: 15px 0;
+  height: 50px;
+}
+
+.table_wrap ul li .item .name {
+  width: 15%;
+  padding: 0 15px;
+
+}
+.table_wrap ul li .item .phone {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.table_wrap ul li .item .status {
+  width: 15%;
+  padding: 0 15px;
+}
+
+.table_wrap ul li .item .issue {
+  width: 30%;
+  padding: 0 15px;
+}
+
+.table_wrap ul li .item .issue span,
+.table_wrap ul li .item .name span {
+  width: 90%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.table_header ul li .item {
+  border-bottom: 2px solid #eaeaea;
+  font-weight: 600;
+}
+
+.table_body {
+  overflow: auto;
+}
+
+.table_body ul li .item {
+  border-bottom: 1px solid #efefef;
+}
+
+.card {
+  width: 83%;
+  height: 260px;
+  margin: 40px 0 auto 220px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.card2 {
+  width: 83%;
+  height: 350px;
+  margin: 40px 0 auto 220px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+}
+
+
+.formulir {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.inputan {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.kotak {
+  height: 20px;
+  width: 100%;
+  margin-left: 10px;
+
+}
+
+.submit, .reset {
+  width: 100px;
+  height: 30px;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.submit {
+  background:#cff1f0;
+}
+.reset {
+  background: #fedfe5;
+}
+
+.edit {
+  width: 60px;
+  height: 30px;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}

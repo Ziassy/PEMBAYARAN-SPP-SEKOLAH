@@ -1,0 +1,49 @@
+.cari {
+    width: 83%;
+    height: 30px;
+    margin: 30px 0 0 220px;
+    background: #fff;
+  
+  }
+  .cari form input.search {
+    width: 280px;
+    height: 30px;
+    background-color: #fff;
+    margin-right: 0;
+    font-size: 16px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  
+  .cari form select.kategori {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    margin-left: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+    
+  
+  }
+  
+  .cari form input.button-cari{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    margin-left: 0;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .cari form button.button-print{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    margin-left: 0;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+  }

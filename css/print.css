@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .table_wrap {
+    width: 98%;
+    margin-left: 10px;
+    margin-top:5px;
+    margin-right:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+  
+  .table_wrap ul li .item {
+    display: flex;
+    background: #fff;
+    padding: 15px 0;
+    height: 50px;
+  }
+  
+  .table_wrap ul li .item .name {
+    width: 15%;
+    padding: 0 15px;
+  
+  }
+  .table_wrap ul li .item .phone {
+    width: 20%;
+    padding: 0 15px;
+  }
+  
+  .table_wrap ul li .item .status {
+    width: 15%;
+    padding: 0 15px;
+  }
+  
+  .table_wrap ul li .item .issue {
+    width: 30%;
+    padding: 0 15px;
+  }
+  
+  .table_wrap ul li .item .issue span,
+  .table_wrap ul li .item .name span {
+    width: 90%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  .table_header ul li .item {
+    border-bottom: 2px solid #eaeaea;
+    font-weight: 600;
+  }
+  
+  .table_body {
+    overflow: auto;
+  }
+  
+  .table_body ul li .item {
+    border-bottom: 1px solid #efefef;
+  }
