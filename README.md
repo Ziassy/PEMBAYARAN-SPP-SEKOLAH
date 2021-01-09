@@ -10,7 +10,7 @@ __Dashboard__
 ![main](Screenshoot/dasboard.JPG)
 
 __Menu Pembayaran__
-![main](Screenshoot/pembayaran.JPG.JPG)
+![main](Screenshoot/pembayaran.JPG)
 
 __Menu Spp__
 ![main](Screenshoot/Spp.JPG)
